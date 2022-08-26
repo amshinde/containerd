@@ -72,6 +72,10 @@ var platformRunFlags = []cli.Flag{
 		Name:  "privileged-without-host-devices",
 		Usage: "Don't pass all host devices to privileged container",
 	},
+	cli.BoolFlag{
+		Name:  "privileged-without-host-devices",
+		Usage: "don't pass all host devices to privileged container",
+	},
 	cli.Float64Flag{
 		Name:  "cpus",
 		Usage: "Set the CFS cpu quota",
